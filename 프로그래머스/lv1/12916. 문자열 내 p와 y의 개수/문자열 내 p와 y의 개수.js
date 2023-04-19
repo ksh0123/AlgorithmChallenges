@@ -22,8 +22,6 @@ function solution(s){
     
     let filterP = strArr.filter(checkP);
     let filterY = strArr.filter(checkY);
-    console.log(filterP);
-    console.log(filterY);
 
     let pCount = filterP.length;
     let yCount = filterY.length;
