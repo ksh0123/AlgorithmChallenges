@@ -1,4 +1,4 @@
 function solution(a, b, flag) {
-    return flag == true ? a + b : a - b
+    return flag ? a + b : a - b
 
 }
