@@ -1,4 +1,4 @@
 function solution(numbers) {
-    let sortedNum = numbers.sort((a, b) => a - b).reverse()
-    return sortedNum[0] * sortedNum[1]
+    numbers.sort((a, b) => b - a)
+    return numbers[0] * numbers[1]
 }
