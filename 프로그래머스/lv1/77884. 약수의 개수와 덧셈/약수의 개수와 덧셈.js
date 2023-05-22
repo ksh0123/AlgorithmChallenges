@@ -1,5 +1,4 @@
 function solution(left, right) {
-    let factorArr = {};
     let total = 0
     for (let i = left; i <= right; i++){
         let count = 0
