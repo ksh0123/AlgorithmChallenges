@@ -5,8 +5,7 @@ function solution(arr, n) {
                 i % 2 == 0 ? answer.push(arr[i]) : answer.push(arr[i] + n)
             } else {
                 i % 2 !== 0 ? answer.push(arr[i]) : answer.push(arr[i] + n)
-            }
-            
+            } 
         }
     return answer;
 }
