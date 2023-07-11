@@ -9,6 +9,5 @@ function solution(a, b) {
         6: 'SAT'
     }
     let inputDate = new Date(`2016-${a}-${b}`)
-    console.log(inputDate.toUTCString())
     return days[inputDate.getDay()]
 }
