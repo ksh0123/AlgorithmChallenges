@@ -9,7 +9,6 @@ function solution(n) {
         return a === b ? true : false;
     }
     
-    
     while(1){
         if(compareBin(convertBin(n), convertBin(nextNum))){
             break;
